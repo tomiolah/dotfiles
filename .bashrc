@@ -4,6 +4,7 @@ alias "vim"="nvim"
 alias "l"="ls"
 alias "cd.."="cd .."
 alias "ll"="ls -al"
+alias ":wq"="echo -e \"You're not in VIM, dumbass\!\""
 
 export PAGER="most"
 export BAT_PAGER="less"
