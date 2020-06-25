@@ -1,13 +1,20 @@
 # ZSH-specifics
 ZSH_THEME="pi"
-EDITOR="nvim"
+export EDITOR="nvim"
+
+plugins=(git docker docker-compose)
+
+# LS="ls"
+LS="colorls"
 
 alias "c"="clear"
-alias "l"="ls"
-alias "ll"="ls -al"
-alias "lol"="ls -al"
-alias "lsd"="ls -al"
-alias "las"="ls -al"
+alias "l"="$LS -a"
+alias "ls"="$LS -a"
+alias "sl"="$LS -a"
+alias "ll"="$LS -al"
+alias "lol"="$LS -al"
+alias "lsd"="$LS -al"
+alias "las"="$LS -al"
 alias "vi"="nvim"
 alias "vim"="nvim"
 alias "cd.."="cd .."
