@@ -1,0 +1,3 @@
+https://github.com/Mayccoll/Gogh
+
+# Monokai Dark Soda + modified bg (0x000000) and fg (0xffffff) colors
